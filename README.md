@@ -84,6 +84,16 @@ Beneficiando principalmente a estudiantes de ingeniería y áreas afines.
 - CSS
 
 ---
+<img width="1366" height="614" alt="Captura" src="https://github.com/user-attachments/assets/3e6dd086-8680-428f-aa1a-8eeae85fa63d" />
+
+<img width="1357" height="614" alt="Captura" src="https://github.com/user-attachments/assets/398f66ae-a262-4da5-adf5-970cea30ecbd" />
+
+<img width="1362" height="609" alt="Captura" src="https://github.com/user-attachments/assets/10547bc5-b6ac-4c2b-86ef-062bc575587c" />
+
+<img width="1366" height="616" alt="Captura" src="https://github.com/user-attachments/assets/7ec2285f-e3b0-495a-8e41-4afadf4140bc" />
+
+
+---
 
 ## 🚀 Instalación y Ejecución
 
