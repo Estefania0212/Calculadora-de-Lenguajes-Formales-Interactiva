@@ -1,0 +1,204 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #ff0fd7;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f844f8;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  body{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FF69B4, #8A2BE2); /* Gradiente de rosa fuerte a morado oscuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+/*BOTON*/
+.btn-container {
+  display: flex;
+  flex-direction: row; /* Alinea los botones horizontalmente */
+  justify-content: center; /* Centra los botones en el contenedor */
+  gap: 30px; /* Espacio entre los botones */
+}
+
+.circle-button {
+  background-color: #fff9f9; /* Blanco */
+  color: #ff0095; /* Texto morado oscuro */
+  border-radius: 10%; 
+  border: 2px solid #8A2BE2;
+  width: 250px; 
+  height: 250px; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  text-align: center; 
+  font-size: 22px; 
+  line-height: 1.5; 
+
+}
+/*TITULO MENUS*/
+h4{
+  text-align: center;
+}
+.circle-button:hover {
+  background-color: #850481; /* Fondo morado oscuro al pasar el ratón */
+  color: #FFFFFF; /* Texto blanco al pasar el ratón */
+  border: 2px solid #850481;
+}
+
+.pill-input {
+  border-radius: 50px; /* Hace que los inputs sean en forma de pill */
+  padding: 10px 20px; /* Ajusta el padding para que se vea bien */
+  font-family: 'Poppins', sans-serif; /* Aplica la fuente Poppins */
+  border: 1px solid #daced5; /* Borde por defecto de Bootstrap */
+  transition: border-color 0.3s;
+}
+
+.pill-input:focus {
+  border-color: #FF69B4; /* Cambia el color del borde al enfocarse */
+  outline: none; /* Elimina el outline por defecto */
+  box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.25); /* Sombra de enfoque */
+}
+
+
+span {
+  font-size: 0.75rem; /* Tamaño de fuente más pequeño */
+  color: #6c757d; /* Color gris claro */
+  display: block; /* Asegura que el span ocupe toda la línea */
+  margin-top: 0.5rem; /* Espacio arriba del span */
+}
+/*MODAL*/
+
+.nav-tabs .nav-link {
+  color: #ff00ff; /* Fucsia para el texto de todas las pestañas */
+
+}
+
+.nav-tabs .nav-link.active {
+  background-color: transparent; /* Sin fondo para la pestaña activa */
+  border-bottom: 3px solid #ff00ff; /* Subrayado fucsia para la pestaña activa */
+  color: #ff00ff; /* Fucsia para el texto de la pestaña activa */
+}
+
+.nav-tabs .nav-link:hover {
+  color: #cc00cc; /* Fucsia más oscuro al hacer hover */
+  background-color: #ffecff;
+  border: #ffafff;
+}
+
+
+
+.modal-header {
+  background-color: #ffe6ff; /* Fondo fucsia claro */
+  border-bottom: 2px solid #ff00ff; /* Borde inferior fucsia */
+  color: #ff00ff; /* Texto fucsia */
+
+}
+
+.modal-title {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 24px;
+  font-weight: bold; /* Texto en negrita */
+
+}
+
+.modal-header  .btn-close {
+  background-color: #ff00ff; /* Fondo fucsia para el botón de cerrar */
+  border-radius: 50%; /* Bordes redondeados para el botón */
+  border: none; /* Sin borde */
+  width: 30px; /* Ancho del botón */
+  height: 30px; /* Alto del botón */
+  opacity: 1; /* Opacidad total para visibilidad */
+}
+
+.modal-header .btn-close:hover {
+  background-color: #cc00cc; /* Fucsia más oscuro al hacer hover */
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Ajusta el espacio entre botones según sea necesario */
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+  margin-top: -70px;
+  color: #000000;
+}
+
+.footer {
+  background: linear-gradient(to right, #ff66cc, #9966ff);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
