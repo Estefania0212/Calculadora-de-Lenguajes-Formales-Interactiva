@@ -99,10 +99,7 @@ Apache ✅
 2. Abrir en el navegador:
 http://localhost/Calculadora/
 
-<img width="1362" height="604" alt="image" src="https://github.com/user-attachments/assets/54c365ca-cc65-497c-8df1-b72f6fa59b31" />
-<img width="1366" height="615" alt="image" src="https://github.com/user-attachments/assets/4258d097-125d-4df1-9b6b-789e461e278c" />
-<img width="1327" height="596" alt="image" src="https://github.com/user-attachments/assets/e9af702c-155c-4c87-99ba-01195c3474c2" />
-<img width="1366" height="611" alt="image" src="https://github.com/user-attachments/assets/32ad397b-560e-4e15-aa98-e93f08a2eaba" />
+---
 
 
 
